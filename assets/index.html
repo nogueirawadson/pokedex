@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Pokedex</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <!-- Nosso CSS-->
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/pokedex.css">
+
+  <!-- Fonts -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+  </style>
+</head>
+
+<body>
+  <section class="content">
+    <h2> Pokedex 1.0</h2>
+    <ol id="pokemonList" class="pokemons">
+    </ol>
+  <div class="pagination">
+    <button id="loadMoreButton" type="button">
+      Load More...
+    </button>
+  </section>
+</div>
+  <script src="./js/pokemon-model.js"> </script>
+  <script src="js/poke-api.js"> </script>
+  <script src="js/main.js"> </script>
+
+
+</body>
+
+</html>
